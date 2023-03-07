@@ -1,1 +1,1 @@
-powershell $env:tmp\Goose\CloseGoose.bat
+powershell start-process $env:tmp\Goose\CloseGoose.bat
