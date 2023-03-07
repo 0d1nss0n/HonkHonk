@@ -1,0 +1,1 @@
+powershell $env:tmp\Goose\CloseGoose.bat
